@@ -16,7 +16,7 @@ To run the code and reproduce the results, your system needs to meet the followi
 
 - **MATLAB**: R2018a or later is recommended.
 - **Penalty Parameter**: The default penalty parameter is set to **100** across the main numerical experiments to ensure stability.
-- - **C Compiler**: A working C compiler (e.g., Xcode/Clang, GCC, or MinGW) is required *only if* you need to recompile the MEX components.
+- **C Compiler**: A working C compiler (e.g., Xcode/Clang, GCC, or MinGW) is required *only if* you need to recompile the MEX components.
 
 ---
 
