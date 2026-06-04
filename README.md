@@ -16,7 +16,8 @@ To run the code and reproduce the results, your system needs to meet the followi
 
 - **MATLAB**: R2018a or later is recommended.
 - **Operating System**: macOS / Linux / Windows.
-- **C Compiler**: A working C compiler (e.g., Xcode/Clang, GCC, or MinGW) is required *only if* you need to recompile the MEX components.
+- **Penalty Parameter**: The default penalty parameter is set to **100** across the main numerical experiments to ensure stability.
+- - **C Compiler**: A working C compiler (e.g., Xcode/Clang, GCC, or MinGW) is required *only if* you need to recompile the MEX components.
 
 ---
 
@@ -28,3 +29,9 @@ This repository already includes pre-compiled binaries for the C-based MEX accel
 
 ```matlab
 mex aij.c
+
+├── ex1a.m                  # Main execution script (corresponds to Fig. 11-14)
+├── ex1e.m                  # Main execution script (corresponds to Fig. 15)
+├── exifun.m                # Input data configuration
+├── uipdgfem.m              # Core solver implementation
+└── aij.c                   # C source code for fast assembly
