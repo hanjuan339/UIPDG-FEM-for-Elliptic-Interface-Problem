@@ -1,9 +1,9 @@
 # An Unfitted Interface Penalty DG–FE Method for Elliptic Interface Problems
 
-This repository contains the MATLAB implementation and source code to reproduce the numerical results presented in the manuscript:
+This repository contains the MATLAB implementation to reproduce the numerical results presented in the manuscript:
 > **An Unfitted Interface Penalty DG–FE Method for Elliptic Interface Problems**
 
-## Authors & Citation
+## Authors
 - **Authors**: Juan Han, Haijun Wu, and Yuanming Xiao
 
 *If you find this code useful for your research, please cite our manuscript or this repository as a reference.*
