@@ -29,6 +29,7 @@ This repository already includes pre-compiled binaries for the C-based MEX accel
 
 ```matlab
 mex aij.c
+```
 
 ├── ex1a.m                  # Main execution script (corresponds to Fig. 11-14)
 ├── ex1e.m                  # Main execution script (corresponds to Fig. 15)
