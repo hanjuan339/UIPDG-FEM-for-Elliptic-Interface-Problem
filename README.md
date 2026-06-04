@@ -31,6 +31,11 @@ This repository already includes pre-compiled binaries for the C-based MEX accel
 mex aij.c
 ```
 
+## 3. Code Structure & Description
+
+Here is the structure of the repository and the description of the core files:
+
+```text
 ├── ex1a.m                  # Main execution script (corresponds to Fig. 11-14)
 ├── ex1e.m                  # Main execution script (corresponds to Fig. 15)
 ├── exifun.m                # Input data configuration
