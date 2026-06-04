@@ -15,7 +15,6 @@ This repository contains the MATLAB implementation to reproduce the numerical re
 To run the code and reproduce the results, your system needs to meet the following requirements:
 
 - **MATLAB**: R2018a or later is recommended.
-- **Operating System**: macOS / Linux / Windows.
 - **Penalty Parameter**: The default penalty parameter is set to **100** across the main numerical experiments to ensure stability.
 - - **C Compiler**: A working C compiler (e.g., Xcode/Clang, GCC, or MinGW) is required *only if* you need to recompile the MEX components.
 
